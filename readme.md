@@ -1,12 +1,22 @@
 # redisct
-Use your server invite url to DM link.
+Server invite url 🔗 Direct message
 
-### What this will do?
-1: When someone join to watching server, send dm to her.
-2: Then kick from server.
+### How will it works?
+1. Login with specified token
+1. Watch specified server(guild)
+1. When someone join, send DM & kick from server
+1. Wait for friend request
 
-### Run?
+_This is very simple bot system, reading codes is very fast way to understand the works._
+
+### Run
 ```bash
-pip install -r requirements.txt
+pip install -U https://github.com/Rapptz/discord.py/archive/rewrite.zip#egg=discord.py
+cp config.example.json config.json
+nano config.json
 python ./run.py
 ```
+
+### Reference
+* [Discord.py](https://discordpy.readthedocs.io/en/rewrite/)
+* [Embed Visualizer](https://leovoel.github.io/embed-visualizer/)

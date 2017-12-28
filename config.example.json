@@ -1,6 +1,11 @@
 {
-	"email": "discord@example.com",
-	"password": "example_password",
-	"server_id": "1145141919810",
-	"message": "Hello! 1stly, please send me friend request.\nHow may I help you?"
+	"token": "USER_TOKEN",
+	"guild_id": 1145141919810,
+	"wait_time": 300,
+	"hello_title": "📤 Send friend request!",
+	"hello_description": "Thank you for contacting to me!\nPlease send me friend request.",
+	"done_title": "✅ Friend request accepted!",
+	"done_description": "Now you can chat with me!",
+	"timeout_title": "⌛ Timed up!",
+	"timeout_description": "Auto accept is over.\nPlease try again."
 }
